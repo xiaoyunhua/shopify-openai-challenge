@@ -1,0 +1,12 @@
+.container {
+    flex: auto;
+    resize: none;
+    border: 1px solid #aaa;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-right: 10px;
+
+    &:active {
+        border: 1px solid #3a86ff;
+    }
+}

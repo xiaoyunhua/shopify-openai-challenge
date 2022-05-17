@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 2.88em;
+    text-align: center;
+    font-size: 18px;
+    background-color: #8338ec;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+
+    &:hover {
+        background-color: darken(#8338ec, 10%);
+        transform: scale(1.1);
+    }
+
+    &:disabled {
+        background-color: #aaa;
+        transform: scale(1);
+        cursor: default;
+    }
+}

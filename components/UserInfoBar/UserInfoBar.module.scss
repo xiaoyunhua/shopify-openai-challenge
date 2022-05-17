@@ -1,0 +1,20 @@
+.container {
+    width: 640px;
+    background-color: #8338ec;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    h1 {
+        font-size: 20px;
+        margin: 0px;
+    }
+}
+
+.icon {
+    border-radius: 50%;
+}

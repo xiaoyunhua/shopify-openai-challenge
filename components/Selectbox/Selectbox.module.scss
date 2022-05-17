@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    label {
+        font-size: 9px;
+        padding: 4px;
+        background-color: #3a86ff;
+        color: white;
+        border-top-left-radius: 10px;
+    }
+
+    select {
+        max-width: 150px;
+        border: 1px solid #aaa;
+        text-align: center;
+        border-bottom-left-radius: 10px;
+
+        &:active {
+            border: 1px solid #3a86ff;
+        }
+    }
+}
