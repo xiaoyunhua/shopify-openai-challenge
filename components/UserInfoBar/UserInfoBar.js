@@ -15,6 +15,7 @@ function UserInfoBar (props) {
         width={24}
         height={24}
         className={styles.icon}
+        alt={'User Profile Picture'}
       />
       <h1>{props.name}</h1>
     </div>

@@ -11,9 +11,7 @@ Selectbox.propTypes = {
 function Selectbox (props) {
   return (
     <div className={styles.container}>
-      <label for={props.id}>
-        {props.id}
-      </label>
+      <label htmlFor={props.id}>{props.id}</label>
       <select
         id={props.id}
         name={props.id}
